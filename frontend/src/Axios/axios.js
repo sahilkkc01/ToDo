@@ -1,5 +1,5 @@
 import axios from "axios"
 const instance = axios.create({
-    baseURL:"http://localhost:5000/api"
+    baseURL:"https://to-do-eight-indol.vercel.app/api"
 })
 export default instance
